@@ -16,6 +16,4 @@ class NovelSpiderItem(scrapy.Item):
     chapter_name = scrapy.Field()
     number = scrapy.Field()
     content = scrapy.Field()
-
-    image_urls = scrapy.Field()
     image = scrapy.Field()
