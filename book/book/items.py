@@ -9,11 +9,4 @@ import scrapy
 
 
 class NovelSpiderItem(scrapy.Item):
-    category_name = scrapy.Field()
-    book_name = scrapy.Field()
-    author = scrapy.Field()
-    intro = scrapy.Field()
-    chapter_name = scrapy.Field()
-    number = scrapy.Field()
-    content = scrapy.Field()
-    image = scrapy.Field()
+    pass
